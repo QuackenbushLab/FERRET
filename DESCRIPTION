@@ -1,0 +1,41 @@
+Package: FERRET
+Type: Package
+Title: Unified methods for the inference and analysis of gene regulatory networks
+Version: 1.5.4
+Date: 2023-09-25
+Authors@R: person("Tara", "Eicher",
+                        email = "teicher@hsph.harvard.edu",role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1809-4458"))
+Maintainer: Tara Eicher <teicher@hsph.harvard.edu>
+Description: FERRET is a framework to evaluate robustness of gene regulatory network inference methods using single-cell data sets. It implements the RAUC and monotonicity metrics as well as facilitating pathway analysis.
+Depends: R (>= 4.2.0),
+Remotes: 
+biocViews:
+	 NetworkInference,
+	 Network,
+	 GeneRegulation,
+         GeneExpression, 
+         Transcription, 
+         Microarray,   
+         GraphAndNetwork
+Imports:
+    utils,
+    ggplot2,
+    methods,
+    graphics,
+    gridExtra,
+    igraph,
+    Stats
+License: GPL-3
+Encoding: UTF-8
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown,
+    pkgdown,
+    fgsea,
+    dorothea
+VignetteEngine: knitr
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
+BugReports: https://github.com/netZoo/netZooR/issues
+URL: https://github.com/netZoo/netZooR, https://netzoo.github.io/

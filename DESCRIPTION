@@ -24,7 +24,7 @@ Imports:
     graphics,
     gridExtra,
     igraph,
-    Stats
+    stats
 License: GPL-3
 Encoding: UTF-8
 Suggests: 

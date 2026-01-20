@@ -211,6 +211,7 @@ LoadResults <- function(resultDirectory, interpretationOfNegative = "poor",
 #' @param outgroupToCompare A list of files to compare with the target network (the out-group).
 #' @param results An object of type FERRET_Results.
 #' @returns A network in the format of an adjacency list
+#' @export
 BuildComparisonObject <- function(sourceNetwork, ingroupToCompare, outgroupToCompare,
                                   results){
   # Check for invalid inputs.
@@ -1844,7 +1845,6 @@ JaccardSim <- function(network1, network2){
       jaccard <- 0
     }
   }
-  print(jaccard)
   return(jaccard)
 }
 
